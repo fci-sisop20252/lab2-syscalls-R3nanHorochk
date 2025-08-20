@@ -67,6 +67,7 @@ strace -e write ./ex1a_printf
 
 **O que observar:**
 - Quantas chamadas `write()` aparecem no strace?
+- R: 9 Write()
 - printf() não é uma syscall direta - ela usa write() internamente
 - O comportamento pode ser diferente do que você espera!
 
