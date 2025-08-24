@@ -206,9 +206,9 @@ Pois ele não precisou fazer a chamada do CP
 
 ## 📤 Entrega
 Certifique-se de ter:
-- [X] Todos os códigos com TODOs completados
-- [X] Traces salvos em `traces/`
-- [X] Este relatório preenchido como `RELATORIO.md`
+- [X ] Todos os códigos com TODOs completados
+- [X ] Traces salvos em `traces/`
+- [X ] Este relatório preenchido como `RELATORIO.md`
 
 ```bash
 strace -e write -o traces/ex1a_trace.txt ./ex1a_printf
